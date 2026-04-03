@@ -3,12 +3,10 @@ import { Search } from 'lucide-react';
 export default function Text() {
     return (
    <section className="relative w-full py-20 px-6 md:py-32 bg-[#f8fbfe] overflow-hidden">
-      {/* الدوائر الخلفية (Decorative Elements) */}
       <div className="absolute top-10 left-10 w-32 h-32 border border-blue-100 rounded-full opacity-50" />
       <div className="absolute top-1/2 right-[-20px] w-12 h-12 bg-blue-500 rounded-full" />
       
       <div className="max-w-5xl mx-auto text-center">
-        {/* العنوان الرئيسي بالمواصفات المطلوبة */}
         <h1 className="
           font-['Poppins'] 
           font-medium 

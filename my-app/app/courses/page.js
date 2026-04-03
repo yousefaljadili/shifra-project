@@ -1,4 +1,4 @@
-"use client"; // ضروري جداً لأننا سنستخدم الـ State
+"use client"; 
 import SessionOne from "./components/SessionOne";
 import Text from "./components/Text";
 import Categories from '@/app/courses/components/Categories'

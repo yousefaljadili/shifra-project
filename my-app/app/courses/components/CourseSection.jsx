@@ -2,7 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 import { BookOpenText, Users, Star } from 'lucide-react';
 import Link from 'next/link';
-// 1. يجب أن تكون المصفوفة هنا (خارج المكون وفي الأعلى) لتكون مرئية للدالة بالأسفل
 const SECTIONS_DATA = [
   {
     title: "Design Courses",
@@ -77,10 +76,8 @@ const CourseCard = ({ course }) => (
   </Link>
 );
 
-// 2. المكون الرئيسي (استقبال البروب والفلترة)
 export default function CourseSection({ activeFilter }) {
   
-  // الفلترة المنطقية: عرض القسم المختار فقط أو عرض الكل
   const displayData = activeFilter 
     ? SECTIONS_DATA.filter(section => section.title === activeFilter)
     : SECTIONS_DATA;
